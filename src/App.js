@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import React, {useState} from 'react'
+import React from 'react'
+import CRUD from './my-components/CRUD'
+// import Hello from './my-components/Hello'
+// import Form from './my-components/Form'
 
-function App() {
+// function Todo({todo, index}){
+//   return (
+//     <div className="todo">{todo.text}</div>
+//   )
+// }
+
+
+
+function App(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CRUD></CRUD>
     </div>
   );
 }
+  
 
 export default App;
