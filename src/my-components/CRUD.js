@@ -1,15 +1,15 @@
 import React, {useState} from 'react'
-
 function CRUD(){
     const [name, setName] = useState("")
     const [names, setNames] = useState({nameValue: []})
+
     const[updateIndex, setUpdateIndex] = useState(-1)
 
     const appendName = (namValue)=>{
         let namesCopy = names.nameValue
         if (updateIndex === -1){
             namesCopy.push(name)
-            console.log(namesCopy)
+            // console.log(namesCopy)
 
             setNames({nameValue: namesCopy})
         }else{

@@ -1,6 +1,7 @@
 // import React, {useState} from 'react'
 import React from 'react'
-import CRUD from './my-components/CRUD'
+import CRUD2 from './my-components/CRUD2'
+// import CRUD from './my-components/CRUD'
 // import Hello from './my-components/Hello'
 // import Form from './my-components/Form'
 
@@ -15,7 +16,7 @@ import CRUD from './my-components/CRUD'
 function App(){
   return (
     <div className="App">
-      <CRUD></CRUD>
+      <CRUD2></CRUD2>
     </div>
   );
 }
