@@ -1,6 +1,6 @@
 // import React, {useState} from 'react'
 import React from 'react'
-import CRUD2 from './my-components/CRUD2'
+import NestedBtn from './my-components/NestedBtn'
 // import CRUD from './my-components/CRUD'
 // import Hello from './my-components/Hello'
 // import Form from './my-components/Form'
@@ -16,7 +16,7 @@ import CRUD2 from './my-components/CRUD2'
 function App(){
   return (
     <div className="App">
-      <CRUD2></CRUD2>
+      <NestedBtn></NestedBtn>
     </div>
   );
 }
